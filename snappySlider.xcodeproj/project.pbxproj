@@ -22,6 +22,7 @@
 		5F8D0EF1194A7DBA00EC7978 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8D0ED0194A7DBA00EC7978 /* UIKit.framework */; };
 		5F8D0EF9194A7DBA00EC7978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F8D0EF7194A7DBA00EC7978 /* InfoPlist.strings */; };
 		5F8D0EFB194A7DBB00EC7978 /* snappySliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D0EFA194A7DBB00EC7978 /* snappySliderTests.m */; };
+		5F8D0F08194A7DD900EC7978 /* SnappySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D0F05194A7DD900EC7978 /* SnappySlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		5F8D0EF6194A7DBA00EC7978 /* snappySliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "snappySliderTests-Info.plist"; sourceTree = "<group>"; };
 		5F8D0EF8194A7DBA00EC7978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F8D0EFA194A7DBB00EC7978 /* snappySliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = snappySliderTests.m; sourceTree = "<group>"; };
+		5F8D0F04194A7DD900EC7978 /* SnappySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnappySlider.h; sourceTree = "<group>"; };
+		5F8D0F05194A7DD900EC7978 /* SnappySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnappySlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				5F8D0EE1194A7DBA00EC7978 /* Main_iPad.storyboard */,
 				5F8D0EE4194A7DBA00EC7978 /* SSViewController.h */,
 				5F8D0EE5194A7DBA00EC7978 /* SSViewController.m */,
+				5F8D0F04194A7DD900EC7978 /* SnappySlider.h */,
+				5F8D0F05194A7DD900EC7978 /* SnappySlider.m */,
 				5F8D0EE7194A7DBA00EC7978 /* Images.xcassets */,
 				5F8D0ED3194A7DBA00EC7978 /* Supporting Files */,
 			);
@@ -257,6 +262,7 @@
 				5F8D0EE6194A7DBA00EC7978 /* SSViewController.m in Sources */,
 				5F8D0EDD194A7DBA00EC7978 /* SSAppDelegate.m in Sources */,
 				5F8D0ED9194A7DBA00EC7978 /* main.m in Sources */,
+				5F8D0F08194A7DD900EC7978 /* SnappySlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

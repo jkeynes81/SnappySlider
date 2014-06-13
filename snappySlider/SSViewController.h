@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SnappySlider.h"
 @interface SSViewController : UIViewController
-
+@property(nonatomic,strong) SnappySlider *blockSlider;
+@property(nonatomic,strong) IBOutlet UILabel *blockLabel;
 @end
